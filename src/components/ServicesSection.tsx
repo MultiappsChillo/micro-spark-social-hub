@@ -1,32 +1,33 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, MessageSquare, Instagram, Share } from "lucide-react";
+import { Hanger, Camera, Tag, Shopping
+Bag } from "lucide-react";
 
 export default function ServicesSection() {
   const services = [
     {
-      title: "Influencer Matching",
-      description: "We pair your brand with the perfect micro-influencers who align with your values and resonate with your target audience.",
-      icon: <Users className="h-12 w-12" />,
-      color: "from-blue-500 to-cyan-400"
+      title: "Fashion Influencer Matching",
+      description: "We connect your fashion brand with style-focused micro-influencers who embody your aesthetic and resonate with your target audience.",
+      icon: <Hanger className="h-12 w-12" />,
+      color: "from-rose-500 to-pink-400"
     },
     {
-      title: "Campaign Strategy",
-      description: "Our team creates effective campaign strategies that maximize engagement and deliver measurable results for your brand.",
-      icon: <MessageSquare className="h-12 w-12" />,
-      color: "from-purple-500 to-pink-500"
+      title: "Style Campaign Strategy",
+      description: "Our team crafts fashion-focused campaigns that showcase your collections and drive engagement with style-conscious audiences.",
+      icon: <Tag className="h-12 w-12" />,
+      color: "from-violet-500 to-purple-400"
     },
     {
-      title: "Content Creation",
-      description: "We help creators produce high-quality, authentic content that drives engagement while staying true to your brand message.",
-      icon: <Instagram className="h-12 w-12" />,
-      color: "from-orange-500 to-amber-500"
+      title: "Fashion Content Creation",
+      description: "We guide creators in producing high-quality fashion content that elevates your brand while maintaining authenticity.",
+      icon: <Camera className="h-12 w-12" />,
+      color: "from-fuchsia-500 to-pink-400"
     },
     {
-      title: "Performance Analytics",
-      description: "Detailed reporting and analytics on campaign performance, engagement metrics, and ROI to measure success.",
-      icon: <Share className="h-12 w-12" />,
-      color: "from-green-500 to-emerald-500"
+      title: "Fashion Marketing Analytics",
+      description: "Track campaign performance, engagement metrics, and sales conversion rates with our detailed fashion-focused analytics.",
+      icon: <ShoppingBag className="h-12 w-12" />,
+      color: "from-rose-400 to-pink-500"
     }
   ];
 
@@ -35,11 +36,11 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Our Services
+            Our Fashion Marketing Services
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-agency-blue to-agency-purple mx-auto my-6"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-rose-400 to-violet-500 mx-auto my-6"></div>
           <p className="text-xl text-gray-600">
-            We offer comprehensive solutions for brands looking to leverage the authentic reach and engagement of micro-influencers.
+            We specialize in connecting fashion brands with authentic micro-influencers to create stunning campaigns that resonate with style-conscious audiences.
           </p>
         </div>
         

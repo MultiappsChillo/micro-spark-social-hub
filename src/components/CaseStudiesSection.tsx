@@ -6,43 +6,43 @@ export default function CaseStudiesSection() {
   
   const caseStudies = [
     {
-      title: "Fashion Brand Summer Collection Launch",
-      brand: "StyleFusion",
+      title: "Luxury Fashion Brand Summer Collection Launch",
+      brand: "ELEGANCE",
       stats: {
-        reach: "2.5M+",
+        reach: "3.5M+",
+        engagement: "9.2%",
+        conversion: "15%",
+        roi: "450%"
+      },
+      description: "Orchestrated a coordinated campaign with 30 fashion micro-influencers to showcase a luxury summer collection, resulting in record-breaking engagement and sales.",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      category: "Luxury Fashion"
+    },
+    {
+      title: "Sustainable Fashion Awareness Campaign",
+      brand: "EcoStyle",
+      stats: {
+        reach: "2.8M+",
         engagement: "8.7%",
         conversion: "12%",
         roi: "380%"
       },
-      description: "Collaborated with 25 micro-influencers to promote a summer collection launch, resulting in record-breaking engagement and sales conversion rates.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      category: "Fashion"
+      description: "Helped a sustainable fashion brand increase market awareness through strategic partnerships with eco-conscious fashion influencers.",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+      category: "Sustainable Fashion"
     },
     {
-      title: "Organic Food Delivery Awareness Campaign",
-      brand: "NatureBox",
+      title: "Streetwear Collection Drop",
+      brand: "UrbanPulse",
       stats: {
-        reach: "1.8M+",
-        engagement: "9.3%",
-        conversion: "15%",
-        roi: "420%"
+        reach: "4.2M+",
+        engagement: "11.3%",
+        conversion: "18%",
+        roi: "520%"
       },
-      description: "Helped an organic food delivery startup gain market penetration through strategic micro-influencer partnerships focused on health and sustainability.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      category: "Food & Beverage"
-    },
-    {
-      title: "Tech Gadget Product Launch",
-      brand: "NexusTech",
-      stats: {
-        reach: "3.2M+",
-        engagement: "7.8%",
-        conversion: "9%",
-        roi: "310%"
-      },
-      description: "Orchestrated a coordinated product launch with tech micro-influencers to generate buzz and early adoption for an innovative smart home device.",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
-      category: "Technology"
+      description: "Launched a viral streetwear collection through collaborations with urban style micro-influencers, creating massive social media buzz.",
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952",
+      category: "Streetwear"
     }
   ];
 
