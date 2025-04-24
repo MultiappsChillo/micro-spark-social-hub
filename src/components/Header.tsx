@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
@@ -15,12 +14,12 @@ export default function Header() {
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Services</a>
-          <a href="#how-it-works" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">How it Works</a>
-          <a href="#case-studies" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Case Studies</a>
-          <a href="#about" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">About Us</a>
+          <a href="#services" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Leistungen</a>
+          <a href="#how-it-works" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Funktionsweise</a>
+          <a href="#case-studies" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Fallstudien</a>
+          <a href="#about" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Über uns</a>
           <Button className="bg-gradient-to-r from-agency-blue to-agency-purple hover:opacity-90 transition duration-300">
-            Contact Us
+            Kontakt
           </Button>
         </nav>
         
@@ -48,12 +47,12 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-white absolute left-0 right-0 p-4 shadow-xl border-t">
           <nav className="flex flex-col space-y-4">
-            <a href="#services" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Services</a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">How it Works</a>
-            <a href="#case-studies" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Case Studies</a>
-            <a href="#about" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">About Us</a>
+            <a href="#services" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Leistungen</a>
+            <a href="#how-it-works" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Funktionsweise</a>
+            <a href="#case-studies" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Fallstudien</a>
+            <a href="#about" className="text-gray-700 hover:text-agency-blue font-medium transition duration-300">Über uns</a>
             <Button className="bg-gradient-to-r from-agency-blue to-agency-purple hover:opacity-90 w-full transition duration-300">
-              Contact Us
+              Kontakt
             </Button>
           </nav>
         </div>

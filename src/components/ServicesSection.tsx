@@ -5,26 +5,26 @@ import { Shirt, Camera, Tag, ShoppingBag } from "lucide-react";
 export default function ServicesSection() {
   const services = [
     {
-      title: "Fashion Influencer Matching",
-      description: "We connect your fashion brand with style-focused micro-influencers who embody your aesthetic and resonate with your target audience.",
+      title: "Mode-Influencer Matching",
+      description: "Wir verbinden Ihre Mode-Marke mit style-fokussierten Micro-Influencern, die Ihre Ästhetik verkörpern und Ihre Zielgruppe ansprechen.",
       icon: <Shirt className="h-12 w-12" />,
       color: "from-rose-500 to-pink-400"
     },
     {
-      title: "Style Campaign Strategy",
-      description: "Our team crafts fashion-focused campaigns that showcase your collections and drive engagement with style-conscious audiences.",
+      title: "Style-Kampagnen Strategie",
+      description: "Unser Team entwickelt mode-fokussierte Kampagnen, die Ihre Kollektionen präsentieren und das Engagement style-bewusster Zielgruppen steigern.",
       icon: <Tag className="h-12 w-12" />,
       color: "from-violet-500 to-purple-400"
     },
     {
-      title: "Fashion Content Creation",
-      description: "We guide creators in producing high-quality fashion content that elevates your brand while maintaining authenticity.",
+      title: "Mode-Content Erstellung",
+      description: "Wir unterstützen Creator bei der Produktion hochwertiger Mode-Inhalte, die Ihre Marke hervorheben und dabei authentisch bleiben.",
       icon: <Camera className="h-12 w-12" />,
       color: "from-fuchsia-500 to-pink-400"
     },
     {
-      title: "Fashion Marketing Analytics",
-      description: "Track campaign performance, engagement metrics, and sales conversion rates with our detailed fashion-focused analytics.",
+      title: "Mode-Marketing Analyse",
+      description: "Verfolgen Sie Kampagnenleistung, Engagement-Metriken und Verkaufskonversionsraten mit unserer detaillierten mode-fokussierten Analytik.",
       icon: <ShoppingBag className="h-12 w-12" />,
       color: "from-rose-400 to-pink-500"
     }
@@ -35,11 +35,11 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Our Fashion Marketing Services
+            Unsere Mode-Marketing Leistungen
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-rose-400 to-violet-500 mx-auto my-6"></div>
           <p className="text-xl text-gray-600">
-            We specialize in connecting fashion brands with authentic micro-influencers to create stunning campaigns that resonate with style-conscious audiences.
+            Wir sind spezialisiert darauf, Mode-Marken mit authentischen Micro-Influencern zu verbinden, um beeindruckende Kampagnen zu erstellen, die style-bewusste Zielgruppen ansprechen.
           </p>
         </div>
         

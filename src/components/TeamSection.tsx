@@ -5,26 +5,26 @@ export default function TeamSection() {
   const team = [
     {
       name: "Sophia Weber",
-      role: "Founder & CEO",
-      bio: "Former marketing executive with 15+ years of experience in influencer marketing and brand partnerships.",
+      role: "Gründerin & CEO",
+      bio: "Ehemalige Marketing-Führungskraft mit über 15 Jahren Erfahrung im Influencer-Marketing und Markenpartnerschaften.",
       initials: "SW"
     },
     {
       name: "Marcus Chen",
       role: "Creative Director",
-      bio: "Award-winning creative with background in digital content strategy and social media campaigns.",
+      bio: "Preisgekrönter Kreativer mit Hintergrund in digitaler Content-Strategie und Social-Media-Kampagnen.",
       initials: "MC"
     },
     {
       name: "Emma Rodriguez",
       role: "Influencer Relations",
-      bio: "Expert in talent management and influencer partnerships with extensive network in the creator economy.",
+      bio: "Expertin für Talent-Management und Influencer-Partnerschaften mit umfangreichem Netzwerk in der Creator-Economy.",
       initials: "ER"
     },
     {
       name: "David Kim",
       role: "Analytics Director",
-      bio: "Data specialist focused on campaign metrics, audience insights, and performance optimization.",
+      bio: "Datenspezialist mit Fokus auf Kampagnen-Metriken, Zielgruppeneinblicke und Leistungsoptimierung.",
       initials: "DK"
     }
   ];
@@ -33,10 +33,10 @@ export default function TeamSection() {
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold">Meet Our Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Unser Team</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-agency-blue to-agency-purple mx-auto my-6"></div>
           <p className="text-xl text-gray-600">
-            Our experts bring years of industry experience to help brands and creators forge meaningful partnerships.
+            Unsere Experten bringen jahrelange Branchenerfahrung mit, um Marken und Creators dabei zu helfen, bedeutungsvolle Partnerschaften aufzubauen.
           </p>
         </div>
 

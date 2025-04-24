@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Shirt, Diamond } from "lucide-react";
 
@@ -16,17 +15,17 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Elevate Your <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-violet-500">Fashion Brand</span> With Elite Creators
+              Bringen Sie Ihre <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 to-violet-500">Mode-Marke</span> mit Elite-Creators voran
             </h1>
             <p className="mt-6 text-lg md:text-xl text-gray-600 max-w-lg mx-auto md:mx-0">
-              Connect with fashion-focused micro-influencers to create authentic style stories and drive engagement for your brand.
+              Verbinden Sie sich mit mode-fokussierten Micro-Influencern, um authentische Style-Stories zu kreieren und das Engagement für Ihre Marke zu steigern.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
               <Button className="bg-gradient-to-r from-rose-400 to-violet-500 hover:opacity-90 text-lg py-6 px-8">
-                <Diamond className="mr-2 h-5 w-5" /> Partner With Us
+                <Diamond className="mr-2 h-5 w-5" /> Partner werden
               </Button>
               <Button variant="outline" className="border-rose-400 text-rose-500 hover:bg-rose-50 text-lg py-6 px-8">
-                <Shirt className="mr-2 h-5 w-5" /> Join As Creator
+                <Shirt className="mr-2 h-5 w-5" /> Als Creator beitreten
               </Button>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-6">
@@ -42,7 +41,7 @@ export default function HeroSection() {
                     </div>
                   ))}
                 </div>
-                <span className="ml-3 text-sm font-medium">500+ Fashion Creators</span>
+                <span className="ml-3 text-sm font-medium">500+ Mode-Creator</span>
               </div>
               <div className="flex items-center">
                 <div className="flex -space-x-3">
@@ -56,7 +55,7 @@ export default function HeroSection() {
                     </div>
                   ))}
                 </div>
-                <span className="ml-3 text-sm font-medium">50+ Fashion Brands</span>
+                <span className="ml-3 text-sm font-medium">50+ Mode-Marken</span>
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ export default function CTABanner() {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex-1 text-left pr-4">
           <p className="text-sm md:text-base font-medium">
-            Ready to launch your next influencer campaign?
+            Bereit für Ihre nächste Influencer-Kampagne?
           </p>
         </div>
         <div className="flex items-center space-x-2">
@@ -38,7 +38,7 @@ export default function CTABanner() {
             size="sm"
             className="bg-gradient-to-r from-agency-blue to-agency-purple hover:opacity-90 transition duration-300"
           >
-            Get Started
+            Jetzt starten
           </Button>
           <button 
             onClick={handleDismiss}
