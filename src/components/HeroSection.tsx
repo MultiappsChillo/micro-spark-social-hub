@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Hanger, Diamond } from "lucide-react";
+import { Shirt, Diamond } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <Diamond className="mr-2 h-5 w-5" /> Partner With Us
               </Button>
               <Button variant="outline" className="border-rose-400 text-rose-500 hover:bg-rose-50 text-lg py-6 px-8">
-                <Hanger className="mr-2 h-5 w-5" /> Join As Creator
+                <Shirt className="mr-2 h-5 w-5" /> Join As Creator
               </Button>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-6">

@@ -1,12 +1,13 @@
+
 import { Card, CardContent } from "@/components/ui/card";
-import { Hanger, Camera, Tag, ShoppingBag } from "lucide-react";
+import { Shirt, Camera, Tag, ShoppingBag } from "lucide-react";
 
 export default function ServicesSection() {
   const services = [
     {
       title: "Fashion Influencer Matching",
       description: "We connect your fashion brand with style-focused micro-influencers who embody your aesthetic and resonate with your target audience.",
-      icon: <Hanger className="h-12 w-12" />,
+      icon: <Shirt className="h-12 w-12" />,
       color: "from-rose-500 to-pink-400"
     },
     {
