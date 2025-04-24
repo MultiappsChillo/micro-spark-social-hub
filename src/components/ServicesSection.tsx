@@ -1,7 +1,5 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-import { Hanger, Camera, Tag, Shopping
-Bag } from "lucide-react";
+import { Hanger, Camera, Tag, ShoppingBag } from "lucide-react";
 
 export default function ServicesSection() {
   const services = [
